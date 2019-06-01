@@ -1,0 +1,14 @@
+name: Roll-Back-Ban
+main: me.drunkenmeows.rbban.RbBan
+version: '0.1'
+author: drunkenmeows
+softdepend: [LogBlock]
+description: Auto rollback player with /rbban
+commands:
+   rbban:
+      description: reload config file.
+      permission: rbban.admin
+Permissions:
+    rbban.admin:
+        description: Are they an admin.
+        default: OP
